@@ -8,5 +8,34 @@
 </head>
 <body>
     
+    <form id="myForm">
+        <label>Name:</label>
+        <input type="text" id="name" />
+        <br />
+        <label>Email:</label>
+        <input type="email" id="email" />
+        <br />
+        <button type="submit" onclick="submitForm()">Submit</button>
+      </form>
+      
+      <script>
+      function submitForm() {
+        // get the form element
+        const form = document.getElementById("myForm");
+      
+        // get the values of the form elements
+        const name = form.elements["name"].value;
+        const email = form.elements["email"].value;
+      
+        // display the values in the console
+        console.log(`Name: ${name}`);
+        console.log(`Email: ${email}`);
+      }
+      </script>
+      
+
+
+
+
 </body>
 </html>
