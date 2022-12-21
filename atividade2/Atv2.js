@@ -3,7 +3,7 @@
 const person = {
     name: "Queise",
     age: 27,
-    country: "Brasil"
+    country: "França"
 }
 
 if (person.country === "Brasil") {

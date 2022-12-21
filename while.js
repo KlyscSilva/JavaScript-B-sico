@@ -1,6 +1,6 @@
 /* While - Enquanto 
  uso o while quando não sei quando um programa pare
-repete o que a formaçao for verdadeira, se não for ele para de repeti
+repete o que a formaçao for verdadeira, se não for ele para de repetir
 */
 
 let i = 0

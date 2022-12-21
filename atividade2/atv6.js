@@ -1,27 +1,39 @@
-const mensagens = {
-    0: "Sem mérito",
-    1: "Muito fraco",
-    2: "Fraco",
-    3: "Abaixo da média",
-    4: "Mediano",
-    5: "Acima da média",
-    6: "Bom",
-    7: "Muito bom",
-    8: "Excelente",
-    9: "Muito excelente",
-    10: "Perfeito"
-  };
-  
-  // Loop para ler as notas dos jurados
-  for (let i = 0; i < 5; i++) {
-    // Pede para o usuário digitar a nota
-    let nota = prompt("Digite a nota do jurado: ");
-  
-    // Verifica se a nota está entre 0 e 10
-    if (nota < 0 || nota > 10) {
-      console.log("Nota inválida. Digite uma nota entre 0 e 10.");
-    } else {
-      // Exibe a mensagem correspondente à nota
-      console.log(mensagens[nota]);
-    }
-  }
+/* [ ] Faça um programa onde leia um numero e diga se ele é par ou impar.*/
+
+ 
+
+
+const number = 25
+
+//  Quanto é o resto da divisão de: number por %2 == 0 isso vai me retornar se o número é par ou impar, pois se o resto for '0' é par ou '1' é impar
+if(number % 2 == 0){
+  console.log("Par");
+}else{
+  console.log("Impar");
+}
+///////////////////////////////
+
+
+
+const number2 = 7
+let divisor = 0
+
+for (let i = 1; i < number2; i++) 
+
+if (number2 % 2 === 0) {
+  console.log("Par");
+}
+
+else if (number2 % 2 === 1){
+  console.log("impar");
+}
+else if (number2 % i == 0)
+    divisor++;
+
+else if(divisor==2){
+  console.log("primo");
+}else{
+  console.log("Nan");
+}
+
+

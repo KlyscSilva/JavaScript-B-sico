@@ -4,7 +4,7 @@
 // criar uma váriavel antes de iniciar a switch case
 
 
-const age = 18
+const age = 17
 
 switch (age) {
     case 18:
