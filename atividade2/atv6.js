@@ -3,10 +3,10 @@
  
 
 
-const number = 25
+const number = 7
 
 //  Quanto é o resto da divisão de: number por %2 == 0 isso vai me retornar se o número é par ou impar, pois se o resto for '0' é par ou '1' é impar
-if(number % 2 == 0){
+if(number % 2 === 0){
   console.log("Par");
 }else{
   console.log("Impar");
@@ -15,25 +15,11 @@ if(number % 2 == 0){
 
 
 
-const number2 = 7
-let divisor = 0
 
-for (let i = 1; i < number2; i++) 
+const number1 = 7
 
-if (number2 % 2 === 0) {
+if(number1 % 2 === 0){
   console.log("Par");
-}
-
-else if (number2 % 2 === 1){
-  console.log("impar");
-}
-else if (number2 % i == 0)
-    divisor++;
-
-else if(divisor==2){
-  console.log("primo");
 }else{
-  console.log("Nan");
+  console.log("Impar");
 }
-
-

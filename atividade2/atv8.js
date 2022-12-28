@@ -6,18 +6,16 @@ Em caso negativo dos casos a cima, colocar uma mensagem => Há números pares e 
 
 */
 
+const numberOne = 10
+const numberTwo = 20
+const numberTree = 30
+const numberFour = 40
 
-const array = ['10','13','25','30']
-console.log(array.length);
-
-
-switch (array) {
-
-    case array[0,1,2,3] % 2 === 0:
-        console.log("Pares");
-        break;
-
-    default:
-        console.log("NaN");
-        break;
+if (numberOne && numberTwo && numberTree && numberFour % 2 === 0) {
+    console.log("Todos São Pares");
 }
+else{
+    console.log("Há números pares e ímpares");
+}
+
+

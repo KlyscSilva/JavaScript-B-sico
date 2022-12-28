@@ -7,71 +7,23 @@
 */
 
 
-const pessoas = { 
+const pessoas0 = {nome: "Matheus", idade:18, sexo:"M", profissão: "Deploy", nacionalidade:"Brasileiro" }
+const pessoas1 = {nome: "Kratos", idade:15, sexo:"M", profissão: "Deploy", nacionalidade:"Frances" }
+const pessoas2 = {nome: "Atreus", idade:38, sexo:"M", profissão: "Deploy", nacionalidade:"Ingles" }
+const pessoas3 = {nome: "Freya", idade:28, sexo:"F", profissão: "Deploy", nacionalidade:"Turco" }
+const pessoas4 = {nome: "Queise", idade:17, sexo:"F", profissão: "Deploy", nacionalidade:"Brasileira" }
 
-    obj1 : {
-
-        name: "Silva",
-        idade: 26,
-        sexo: "m",
-        profissao: "suporte web",
-        nacionalidade:"brasileira",
-    
-    },
-    
-    obj2 : {
-    
-        name: "Queise",
-        idade: 27,
-        sexo: "f",
-        profissao: "advogada",
-        nacionalidade:"brasileira",
-    
-    
-    },
-    
-    obj3 : {
-    
-        name: "Atreus",
-        idade: 16,
-        sexo: "m",
-        profissao: "guerreiro",
-        nacionalidade:"noruega",
-    
-    
-    },
-    
-    obj4 : {
-    
-        name: "Kratos",
-        idade: 50,
-        sexo: "m",
-        profissao: "hunter",
-        nacionalidade:"grego",
-    
-    
-    },
-    
-    obj5 : {
-    
-        name: "Freya",
-        idade: 60,
-        sexo: "f",
-        profissao: "vendendora",
-        nacionalidade:"brasileira",
-    
-    
-    },
-
-}
-
-
-
-
-
-
-if (pessoas.nacionalidade === "brasileira" && pessoas.idade >= 18) {
+if (pessoas0.idade >= 18 && pessoas0.nacionalidade === "Brasileiro" || pessoas0.nacionalidade === "Brasileira") {
     console.log("Aprovada");
-}else{
-    console.log("Não aprovada");
+}else {
+    console.log("Não Aprovada");
 }
+
+
+if (pessoas4.idade >= 18 && (pessoas4.nacionalidade === "Brasileiro" || pessoas4.nacionalidade === "Brasileira")) {
+
+    console.log("Aprovada");
+}else {
+    console.log("Não Aprovada");
+}
+

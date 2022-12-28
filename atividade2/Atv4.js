@@ -22,3 +22,26 @@ if (num1 > num3 && num1 > num2) {
     }else {
         console.log(num3 - '' - 'é o menor número');
     }
+
+    ////////////////// Correção ////////////////
+
+    let number1 = 28
+    let number2 = 15
+    let number3 = 30
+
+    if (number1 > number2 && number1 > number3) {
+        console.log('O primeiro é o maior');
+    } else if(number2 > number3){
+        console.log('O segundo é o maior');
+    } else {
+        console.log('O terceiro é o maior');
+    }
+
+    if (number1 < number2 && number1 < number3) {
+        console.log('O primeiro é o menor');
+    } else if(number2 < number3){
+        console.log('O segundo é o menor');
+    } else {
+        console.log('O terceiro é o menor');
+    }
+
